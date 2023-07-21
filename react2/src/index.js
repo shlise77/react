@@ -11,6 +11,8 @@ import App7 from "./App7";
 import App8 from "./App8";
 import App9 from "./App9";
 import App10 from "./App10";
+import App12 from "./App12";
+import App13 from "./App13";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +25,9 @@ root.render(
         {/*<App7 />*/}
         {/*<App8 />*/}
         {/*<App9 theme={'primary'} signedInUser={'안유진'}/>*/}
-        <App10 theme={'success'} signedInUser={'안유진'} />
+        {/*<App10 theme={'success'} signedInUser={'안유진'} />*/}
+        {/*<App12 />*/}
+        <App13 />
     </React.StrictMode>
 );
 

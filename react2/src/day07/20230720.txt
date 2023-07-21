@@ -44,3 +44,25 @@ useContext : 컨텐스트를 사용하기 위한 리액트의 hooks
     - useContext를 사용하면 Consumer를 입력하지 않아도 됨, Provider 만 써도 된다.
     - 사용법
         const 변수명=useContext(컨텍스명);
+
+
+        Axios : node.js에서 비동기 통신을 하기 위한 라이브러리, 내부적으로 promise를 사용함
+        - axios는 rest 방식 통신을 지원함
+        - get(url, config) : get 방식으로 서버에 데이터 요청
+        - post(url, data[ , config]) : post 방식으로 서버에 데이터 전달
+        - put(url, data[ , config]) : put 방식으로 서버에 데이터 전달
+        - delete(url, data[ , config]) : delete 방식으로 데이터 전달
+        - options(url, config) : axios 객체 생성 시 설정 벙보를 변경할 수 있음
+
+        Axios : node.js에서 비동기 통신을 하기 위한 라이브러리, 내부적으로 promise를 사용함
+        - axios는 rest 방식 통신을 지원함
+        - get(url, config) : get 방식으로 서버에 데이터 요청
+        - post(url, data[ , config]) : post 방식으로 서버에 데이터 전달
+        - put(url, data[ , config]) : put 방식으로 서버에 데이터 전달
+        - delete(url, data[ , config]) : delete 방식으로 데이터 전달
+        - options(url, config) : axios 객체 생성 시 설정 벙보를 변경할 수 있음
+
+        - then() : 정상적으로 통신이 성공했을 경우 실행되는 콜백함수
+        - catch() : 통신이 실패했을 경우 실행되는 콜백함수
+        - async/await와 함께 사용 시 then()이 필요할 경우 나중에 호출할 수 있음
+        - async/await와 함께 사용 시 예외처리를 try/catch 로
